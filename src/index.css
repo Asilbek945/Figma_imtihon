@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-.tepa{
+.tepa {
     max-width: 1500px;
     width: 100%;
     height: auto;
@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-.tepa .chap{
+.tepa .chap {
     width: 50%;
     height: auto;
     background-color: aqua;
@@ -25,10 +25,19 @@
     justify-content: start;
     align-items: center;
     gap: 20px;
+    color: white;
 }
-.tepa .ong{
+
+.tepa .ong {
     width: 50%;
     height: auto;
     background-color: aqua;
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    color: white;
 }
