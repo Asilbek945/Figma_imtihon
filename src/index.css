@@ -1,12 +1,16 @@
 @import "tailwindcss";
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .tepa {
-    max-width: 1500px;
+    max-width: 1440px;
     width: 100%;
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 50px auto;
-    padding: 10px;
+    /* padding: 10px; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -17,8 +21,8 @@
 .tepa .chap {
     width: 50%;
     height: auto;
-    background-color: aqua;
-    padding: 10px;
+    background-color: #3FC37D;
+    padding: 10px 70px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -31,8 +35,8 @@
 .tepa .ong {
     width: 50%;
     height: auto;
-    background-color: aqua;
-    padding: 10px;
+    background-color: #3FC37D;
+    padding: 10px 137px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -53,3 +57,110 @@
     /* gap: 20px; */
 }
 
+/* ai tugmalar */
+.tugmalar {
+    display: inline-flex;
+    align-items: center;
+    /* border: 2px solid #8b5cf6; */
+    border-radius: 10px;
+    padding: 1px;
+    background-color: #ffffff;
+    gap: 0;
+}
+
+.tugma:nth-child(1) {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 4px;
+    transition: opacity 0.2s ease;
+    border: 1px solid black;
+    padding: 5px;
+    margin-right: 10px;
+    width: 60px;
+    height: 33px;
+}
+
+.tugma:nth-child(2) {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+    /* border-radius: 10    px; */
+    transition: opacity 0.2s ease;
+    border: 1px solid black;
+}
+
+.tugma:hover {
+    opacity: 0.85;
+}
+
+.tugma-til {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.globus-icon {
+    font-size: 16px;
+}
+
+.ajratuvchi {
+    width: 1px;
+    height: 22px;
+    background-color: #d1d5db;
+}
+
+.tugma-ariza {
+    padding: 8px 20px;
+    background-color: #10b981;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Ozimniki */
+
+.tepa .ikki {
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ikki img {
+    width: 80px;
+    height:80px;
+}
+
+.ikki .navbar {
+    width: 50%;
+    height: auto;
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar ul li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}

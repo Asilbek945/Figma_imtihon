@@ -1,0 +1,164 @@
+/* Asosiy konteynir */
+.courses-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a2b49;
+}
+
+/* Sarlavha uslubi */
+.courses-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title-main {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1a2b49;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.title-line {
+  width: 40px;
+  height: 4px;
+  background-color: #2ecc71;
+  display: inline-block;
+  border-radius: 2px;
+  margin-left: -870px;
+}
+
+.title-main span {
+  color: #2ecc71;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a2b49;
+  letter-spacing: 0.5px;
+}
+
+.subtitle span {
+  color: #2ecc71;
+}
+
+/* Kartochkalar grid joylashuvi */
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* Responsive (Moslashuvchanlik) */
+@media (max-width: 992px) {
+  .courses-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .courses-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Individual Kartochka */
+.course-card {
+  border: 1.5px solid #2ecc71;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(46, 204, 113, 0.15);
+}
+
+/* Rasm konteyneri */
+.card-image-wrapper {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-bottom: 1px solid #eef2f5;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Kontent qismi */
+.card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2ecc71;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.card-icon {
+  color: #2ecc71;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-description {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  flex-grow: 1;
+  text-align: justify;
+}
+
+/* Havola (Batafsil) */
+.card-link {
+  color: #2ecc71;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+  align-self: flex-start;
+}
+
+.card-link:hover {
+  color: #27ae60;
+  text-decoration: underline;
+}
+
+.ggg
+{
+  width: 1440px;
+  height: 1485px;
+  margin-left: -135px;
+  padding-left: 140px;
+  padding-right:140px;
+
+}

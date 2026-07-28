@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,4 +6,104 @@
     cursor: pointer;
     transition: all 0.3s;
     text-decoration: none;
+}
+
+.orta {
+    width: 100%;
+    height: auto;
+    padding: 10px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.orta .o_tepa {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 95px;
+    justify-content: center;
+    align-items: start;
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3FC37D;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.o_tepa h1 span:nth-child(2) {
+    color: black;
+}
+
+
+.orta .o_orta {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.o_orta .ttepa1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.o_orta .ttepa2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.ttepa1 ul li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.ttepa1 ul li a:nth-child(1){
+    color: #3FC37D;
+}
+
+.ttepa1 ul li a{
+    width: auto;
+    padding: 10px;
+    height: 60px;
+    /* border: 2px solid black; */
+}
+
+.ttepa1 ul li a:nth-child(1){
+    width: auto;
+    padding: 10px;
+    height: 60px;
+    border: 2px solid #3FC37D;
+    border-radius: 13px 13px 0px 0px;
+}
+
+.ttepa1 hr{
+    width: 1150px;
+    border: 2px solid #3FC37D;
+    margin: -40px;
+    /* height: 10px; */
 }
