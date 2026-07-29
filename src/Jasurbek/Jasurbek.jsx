@@ -19,7 +19,7 @@ const Jasurbek = () => {
    
     <div className="jasurbek-page">
 
-
+ 
       {/* Main Contact Section */}
       <div className="contact-section">
         <div className="container">
@@ -92,7 +92,7 @@ const Jasurbek = () => {
           </div>
         </div>
       </div>
-
+ 
       {/* Footer */}
       <footer className="footer">
         <div className="container footer-content">

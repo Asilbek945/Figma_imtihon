@@ -277,6 +277,7 @@ body {
   padding: 0 16px;
   font-size: 16px;
   outline: none;
+  background-color: white;
 }
 
 .boglanish-btn {
@@ -285,48 +286,12 @@ body {
   padding: 14px 40px;
   font-size: 18px;
   font-weight: bold;
-  background-color: #1a1a1a;
-  color: #ffffff;
+  background-color: white;
+  color: #41C981;
   border-radius: 8px;
   border: none;
   cursor: pointer;
+  margin-left: 410px;
 }
 
-/* ===== FOOTER ===== */
-.footer {
-  background-color: #1a1a1a;
-  padding: 50px 0 20px 0;
-  margin-top: 40px;
-}
 
-.footer-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #333;
-}
-
-.footer-logo {
-  color: #41C981;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.footer-links {
-  display: flex;
-  gap: 32px;
-}
-
-.footer-links p {
-  color: #ffffff;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.footer-bottom {
-  color: #888;
-  font-size: 14px;
-  text-align: center;
-  margin-top: 24px;
-} 
