@@ -46,9 +46,9 @@ const App = () => {
                 <h1><i className="fa-solid fa-phone"></i> +998 90 339 80 06</h1>
               </div>
               <div className="ong">
-                <a href="https://instagram.com"><i className="fa-brands fa-instagram"></i></a>
-                <a href="https://telegram.me"><i className="fa-brands fa-telegram"></i></a>
-                <a href="https://facebook.com"><i className="fa-brands fa-facebook-f"></i></a>
+                <a target='_blank' href="https://www.instagram.com/metaitschool/"><i className="fa-brands fa-instagram"></i></a>
+                <a target='_blank' href="https://web.telegram.org/a/#-1001539825247"><i className="fa-brands fa-telegram"></i></a>
+                <a target='_blank' href="https://facebook.com"><i className="fa-brands fa-facebook-f"></i></a>
               </div>
             </div>
             <div className="ikki">
@@ -104,8 +104,8 @@ const App = () => {
             <Route path='Mumar' element={<Mumar />}/>
             <Route path='Asilbek' element={<Asilbek />}/>
             <Route path='Jasurbek' element={<Jasurbek />}/>
+            <Route path='*' element={<Samandar />}/>
           </Routes>
-          {/* <Samandar /> */}
         </div>
       </div>
     </BrowserRouter>
